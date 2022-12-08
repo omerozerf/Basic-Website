@@ -84,8 +84,15 @@
 
 .center .buttons {
     margin-top: 40px;
-    margin-left: 200px;
     
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .buttons button {
